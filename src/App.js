@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 import './App.css';
 import imageInSrc from './imageInSrc.jpg';
 import Video from 'react-player'
@@ -11,11 +12,11 @@ function App() {
 
         <br/>  
 
-        <img src={imageInSrc}/>
+        <img src={imageInSrc} alt="Logo Panda"/>
        
         <br/> 
 
-        <img src={"imageInPublic.jpg"}/>  
+        <img src={"imageInPublic.jpg"} alt="Panda eating sugar cane"/>  
 
       </div>  
 
